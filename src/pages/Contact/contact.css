@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-h {
+    color: white;
+    font-size: 64px;
+    margin-top: 70px;
+    margin-left: 250px;
+
+}
+
+.aqua {
+    color: #00ADB5;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 210px;
+    margin-left: 300px;
+    gap: 24px;
+}
+
+.form {
+    font-weight: bold;
+}
+
+.label {
+    color: white;
+
+}
+
+.input{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #3a3f47;
+    color: white;
+    border: none;
+    width: 160px;
+} 
+
+.text {
+    display: flex;
+}
+
+.email {
+    margin-left: 30px;
+}
+
+.textarea {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #3a3f47;
+    color: white;
+    border: none;
+    width: 380px;
+    height: 150px;
+}
+
+.message{
+    background-color: rgba(0, 173, 181, 1);
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.message::hover{
+    background-color: #05575c;
+}
+
+
+.keyboard{
+    position: absolute;
+    margin-left: 1430px;
+    top: 150px;
+  }
+  
+  .mail {
+    position: absolute;
+    right: 900px;
+    top: 900px;
+  }
+  
+  .group {
+    position: absolute;
+    width: 190px;
+    top: 580px;
+    left: 1530px;
+  }
+
+  .vector {
+    position: absolute;
+    top: 580px;
+    left: 1340px;
+  }
+
+  
